@@ -144,7 +144,7 @@ prompt_agnoster_precmd() {
   vcs_info
   PROMPT='%{%f%b%k%}$(prompt_agnoster_main)
 ❯ '
-  RPROMPT='%{$fg[green]%}[%*]%{$reset_color%}'
+  RPROMPT='%{$fg[blue]%}[%*]%{$reset_color%}'
 }
 
 prompt_agnoster_setup() {
